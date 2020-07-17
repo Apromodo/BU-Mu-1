@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Bilp210_2</string>
+    <string name="turkceMesaj">merhaba dünya</string>
+    <string name="ingMesaj">Hello world</string>
+    <string name="frMesaj">Bonjour</string>
+</resources>

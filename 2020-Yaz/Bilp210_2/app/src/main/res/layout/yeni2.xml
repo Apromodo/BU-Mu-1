@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#00FFFF"
+    >
+
+
+    <TextView
+        android:background="#FF0000"
+        android:gravity="center"
+        android:textColor="@color/beyaz"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:fontFamily="sans-serif"
+        android:textSize="24sp"
+        android:text="@string/frMesaj"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:gravity="left||bottom"
+        android:textColor="@color/beyaz"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="#4CAF50"
+        android:fontFamily="monospace"
+        android:textSize="24sp"
+        android:text="@string/turkceMesaj"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:gravity="right||top"
+        android:textColor="@color/beyaz"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#3F51B5"
+        android:layout_weight="1"
+        android:fontFamily="cursive"
+        android:textSize="24sp"
+        android:text="@string/ingMesaj"
+        android:textStyle="bold"
+
+        />
+
+
+</LinearLayout>
