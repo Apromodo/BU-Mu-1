@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:src="@drawable/kule"
+        android:id="@+id/resim"
+        android:layout_width="160dp"
+        android:layout_height="100dp">
+
+    </ImageView>
+
+
+<TextView
+    android:id="@+id/tv1"
+    android:layout_toRightOf="@id/resim"
+    android:layout_alignTop="@id/resim"
+    android:layout_width="wrap_content"
+    android:text="KIZ KULESI"
+    android:textSize="24sp"
+    android:textColor="#FF00FF"
+    android:layout_height="wrap_content">
+
+</TextView>
+
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_toRightOf="@id/resim"
+        android:layout_below="@id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="üsküdar /salacak"
+        android:textColor="#FF00FF"
+        android:textSize="18sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_toRightOf="@id/resim"
+        android:layout_below="@id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="500 metre uzaklıkta">
+
+    </TextView>
+
+
+</RelativeLayout>
