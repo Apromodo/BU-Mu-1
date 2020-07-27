@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF6F00"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/jennietv"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="#039BE5"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JENİE"/>
+
+
+    <TextView
+        android:layout_alignEnd="@id/jennietv"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/omoju"
+        android:layout_above="@id/jennietv"
+        android:background="#039BE5"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OMOJU"/>
+
+
+    <TextView
+        android:layout_alignEnd="@id/omoju"
+        android:layout_marginBottom="8dp"
+        android:layout_above="@id/omoju"
+        android:background="#039BE5"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AMY"/>
+
+
+    <TextView
+        android:id="@+id/lyla"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#039BE5"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lyla"/>
+
+    <TextView
+        android:id="@+id/Natal"
+        android:layout_alignParentStart="true"
+        android:layout_above="@id/lyla"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#039BE5"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Natalie"/>
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/lyla"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#039BE5"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="me"/>
+
+
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toLeftOf="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:background="#039BE5"
+        android:textColor="#FFFFFF"
+        android:text="Kunal"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_alignTop="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:background="#039BE5"
+        android:textColor="#FFFFFF"
+        android:text="Ben"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_alignTop="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/tv1"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:background="#039BE5"
+        android:textColor="#FFFFFF"
+        android:text="Kagore"/>
+
+
+
+</RelativeLayout>
