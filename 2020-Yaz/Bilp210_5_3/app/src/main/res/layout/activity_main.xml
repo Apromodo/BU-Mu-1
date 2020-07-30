@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <EditText
+        android:id="@+id/adET"
+        android:layout_margin="16dp"
+        android:hint="Adınızı girniz."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/soyAdET"
+        android:layout_below="@id/adET"
+        android:layout_alignLeft="@id/adET"
+        android:hint="Soyadınızı girniz."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:id="@+id/noET"
+        android:layout_below="@id/soyAdET"
+        android:layout_alignLeft="@id/adET"
+        android:layout_marginTop="16dp"
+        android:hint="Numaranızı girniz."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:onClick="kaydet"
+        android:text="KAYDET"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+</RelativeLayout>
