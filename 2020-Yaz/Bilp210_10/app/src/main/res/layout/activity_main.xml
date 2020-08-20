@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+   <ListView
+       android:id="@+id/listView"
+       android:layout_above="@id/baskentTV"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"/>
+
+
+    <TextView
+        android:id="@+id/baskentTV"
+        android:text="TEST"
+        android:textSize="24sp"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        android:background="#AAAAAA"
+        android:layout_width="128dp"
+        android:layout_height="64dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/dogruTV"
+        android:layout_toLeftOf="@id/baskentTV"
+        android:layout_alignTop="@id/baskentTV"
+        android:textSize="24sp"
+        android:padding="16dp"
+        android:gravity="center"
+        android:text="D"
+        android:background="#00FF00"
+        android:layout_width="64dp"
+        android:layout_height="64dp"/>
+
+    <TextView
+        android:id="@+id/yanlisTV"
+        android:layout_toRightOf="@id/baskentTV"
+        android:layout_alignTop="@id/baskentTV"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Y"
+        android:background="#FF0000"
+        android:layout_width="64dp"
+        android:layout_height="64dp"/>
+
+</RelativeLayout>
